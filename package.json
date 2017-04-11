@@ -26,13 +26,13 @@
     "mocha": "~3.2.0",
     "nock": "~9.0.2"
   },
-  "homepage": "https://github.com/jhermsmeier/node-flightstats",
+  "homepage": "https://github.com/fahidmohammad/flight-stats-module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhermsmeier/node-flightstats.git"
+    "url": "git+https://github.com/fahidmohammad/flight-stats-module.git"
   },
   "bugs": {
-    "url": "https://github.com/jhermsmeier/node-flightstats/issues"
+    "url": "https://github.com/fahidmohammad/flight-stats-module/issues"
   },
   "directories": {
     "test": "test"
