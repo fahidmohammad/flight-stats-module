@@ -1,0 +1,46 @@
+{
+  "name": "flight-stats",
+  "version": "0.0.1",
+  "description": "FlightStats API Client",
+  "author": "Fahid Mohammad <voltzworld@gmail.com> (http://fahidmohammad.in)",
+  "license": "MIT",
+  "keywords": [
+    "flightstats",
+    "api",
+    "client",
+    "flight",
+    "airline",
+    "airport",
+    "iata",
+    "live flight status"
+  ],
+  "main": "lib/flightstats.js",
+  "dependencies": {
+    "debug": "~2.6.0",
+    "moment-timezone": "~0.5.11",
+    "request": "~2.79.0"
+  },
+  "devDependencies": {
+    "dotenv": "~2.0.0",
+    "jsdoc-to-markdown": "~2.0.1",
+    "mocha": "~3.2.0",
+    "nock": "~9.0.2"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-flightstats",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-flightstats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-flightstats/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require dotenv/config --ui tdd",
+    "test:clean": "rm -rf test/fixtures/*",
+    "test:record": "HTTP_RECORD=true mocha --require dotenv/config --ui tdd",
+    "docs": "jsdoc2md 'lib/**/*.js' --separators --param-list-format list > docs/API.md"
+  }
+}
