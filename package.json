@@ -1,6 +1,6 @@
 {
   "name": "flight-stats",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "FlightStats API Client",
   "author": "Fahid Mohammad <voltzworld@gmail.com> (http://fahidmohammad.in)",
   "license": "MIT",
